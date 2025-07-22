@@ -1,0 +1,60 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f1f5fa;
+}
+
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.home-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.home-card h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.home-card p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.home-btn.login {
+  background-color: #007bff;
+  color: white;
+}
+
+.home-btn.register {
+  background-color: #28a745;
+  color: white;
+}
+
+.home-btn:hover {
+  opacity: 0.9;
+}
